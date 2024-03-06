@@ -1,0 +1,62 @@
+train_dataset:
+  dataset:
+    name: paired-image-folders
+    args:
+      image: DAVIS2SEG/frame/train
+      flow: DAVIS2SEG/flow/train
+      gt: DAVIS2SEG/mask/train
+      depth: DAVIS2SEG/depth/train
+      cache: none
+      split_key: train
+  wrapper:
+    name: train
+    args:
+      inp_size: 512
+  batch_size: 8
+
+val_dataset:
+  dataset:
+    name: paired-image-folders
+    args:
+      image: DAVIS2SEG/frame/val
+      flow: DAVIS2SEG/flow/val
+      gt: DAVIS2SEG/mask/val
+      depth: DAVIS2SEG/depth/val
+      cache: none
+      split_key: test
+  wrapper:
+    name: val
+    args:
+      inp_size: 512
+  batch_size: 8
+
+eval_type: f1
+
+data_norm:
+  inp: {sub: [0.5], div: [0.5]}
+  gt: {sub: [0.5], div: [0.5]}
+  gt_rgb: {sub: [0.5], div: [0.5]}
+
+model:
+  name: vit
+  args:
+    arch: baseline
+    inp_size: 512
+    depth_config:
+      depth_loss: true
+      depth_arch: alpha+beta
+    encoder_mode:
+      backbone: mit_b1
+    weights: ckpt/mitb1/_train_vos_depthloss_monodepth_alpha+beta_pretrain/model_epoch_last.pth
+
+optimizer:
+  name: adamw
+  args:
+    lr: 6.e-5
+epoch_max: 20
+multi_step_lr:
+  milestones: [1]
+  gamma: 0.1
+
+epoch_val: 1
+epoch_save: 1
