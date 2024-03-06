@@ -4,7 +4,7 @@
  </h3> 
  <br/>
   <a href='https://arxiv.org/abs/2303.10883'><img src='https://img.shields.io/badge/ArXiv-2303.08524-red' /></a> 
-  <a href='https://nifangbaage.github.io/Explicit-Visual-Prompt/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
+  <a href='https://nifangbaage.github.io/DATTT/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
   <br/>
   <br/>
 <div>
