@@ -3,7 +3,7 @@
 <h3> Depth-aware Test-Time Training for Zero-shot Video Object Segmentation
  </h3> 
  <br/>
-  <a href='https://arxiv.org/abs/2303.10883'><img src='https://img.shields.io/badge/ArXiv-2303.08524-red' /></a> 
+  <a href='https://arxiv.org/abs/2403.04258'><img src='https://img.shields.io/badge/ArXiv-2403.04258-red' /></a> 
   <a href='https://nifangbaage.github.io/DATTT/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
   <br/>
   <br/>
@@ -25,7 +25,7 @@
                       <sup>4</sup> Tencent AI Lab
 </div>
 <br>
-<i><strong><a href='https://arxiv.org/abs/2303.10883' target='_blank'>CVPR 2024</a></strong></i>
+<i><strong><a href='https://arxiv.org/abs/2403.04258' target='_blank'>CVPR 2024</a></strong></i>
 <br>
 <br>
 </div>
