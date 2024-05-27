@@ -73,7 +73,7 @@ python ttt_demo.py --config configs/test_sample.yaml --model model.pth --eval_ty
 ```bash
 python ttt_demo.py --config configs/test_sample.yaml --model model.pth --eval_type TTT-MWI
 ```
-We provide our checkpoints [here](https://drive.google.com/file/d/1nI1jfpgV_EygX_hIBs2SxxxAPnJXg3U5/view?usp=drive_link).
+We provide our checkpoints [here](https://drive.google.com/file/d/1HukrYVNiUwLpWCQ435oPVeqjW1drzBRj/view?usp=drive_link).
 
 ## Citation
 If you find this useful in your research, please consider citing:
