@@ -89,4 +89,4 @@ year={2024}
 
 ## Acknowledgements
 
-EVP code borrows heavily from [EVP](https://github.com/NiFangBaAGe/Explicit-Visual-Prompt), [Swin](https://github.com/microsoft/Swin-Transformer) and [SegFormer](https://github.com/NVlabs/SegFormer). We thank the author for sharing their wonderful code. 
+DATTT code borrows heavily from [EVP](https://github.com/NiFangBaAGe/Explicit-Visual-Prompt), [Swin](https://github.com/microsoft/Swin-Transformer) and [SegFormer](https://github.com/NVlabs/SegFormer). We thank the author for sharing their wonderful code. 
